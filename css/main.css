@@ -1,0 +1,76 @@
+body{
+    background-color: #111;
+}
+.head{
+    margin: auto;
+    text-align: center;
+    color: rgba(0, 170, 255, 0.985);
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+    margin: 3%;
+}
+.card{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    width: 35%;
+    margin: auto;
+    height: 294px;
+    position: relative;
+}
+.card-header h4 {
+    text-align: left;
+    margin: 2%;
+    font-size: 127%;
+}
+.card-header button {
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 131%;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}
+.card-header {
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 4% auto;
+    background-color: #555;
+}
+button.add-task-button {
+    padding: 2%;
+    margin: auto;
+    width: 27%;
+    background-color: #00a7fb;
+    margin: 2% auto 6%;
+    color: white;
+    font-weight: bold;
+}
+.task-input {
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+.add-task-label {
+    font-weight: bold;
+    margin: 6% 0% 1% 0%;
+    color: white;
+}
+.card-footer{
+    border-top: 1px solid black;
+    text-align: right;
+}
+.card-close-button{
+    background-color: #5555555e;
+    padding: 1%;
+    margin: 2% 4%;
+}
