@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/allTasksCard.css" />
     <title>To Do App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,22 +16,15 @@
   </head>
   <body>
     <h1 class="head">Welcome at ToDo App</h1>
-    <div class="card">
-      <div class="card-header">
-        <div style="height: 5px"></div>
-        <h4>Add Task</h4>
-        <button>X</button>
-      </div>
-
-      <div class="card-form">
-        <p class="add-task-label">Add Task</p>
-        <input type="text" class="task-input" value="" />
-        <button class="add-task-button">Add Task</button>
-      </div>
-
-      <div class="card-footer">
-        <button class="card-close-button">Close</button>
-      </div>
+    <div class="open-add-task-card">
+      <button class="open-add-task-card-btn">Add Task</button>
     </div>
+    <div class="card-place"></div>
+    <div class="all-tasks-card">
+      <div style="height: 1px"></div>
+      <div class="no-tasks-yet">No Data Added Yet</div>
+      <div style="height: 1px" id="margin"></div>
+    </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>

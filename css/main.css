@@ -4,10 +4,23 @@ body{
 .head{
     margin: auto;
     text-align: center;
-    color: rgba(0, 170, 255, 0.985);
+    color: rgb(17 149 179);
     font-size: 400%;
     font-family: 'Roboto', sans-serif;
     margin: 3%;
+}
+.open-add-task-card{
+    width: 100%;
+    text-align: center;
+}
+.open-add-task-card-btn
+{
+    width: 51%;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    padding: 0.5%;
+    background-color: #0c93b7;
 }
 .card{
     background-color: #ffffff;
@@ -16,7 +29,9 @@ body{
     width: 35%;
     margin: auto;
     height: 316px;
-    position: relative;
+    position: fixed;
+    right: 33%;
+    top: 14%;
 }
 .card-header h4 {
     text-align: left;
@@ -80,7 +95,7 @@ button.add-task-button {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
+        color: rgb(17 149 179);
         font-size: 300%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
@@ -92,7 +107,7 @@ button.add-task-button {
         width: 44%;
         margin: auto;
         height: 298px;
-        position: relative;
+        position: fixed;
     }
     .card-header button {
         background-color: transparent;
@@ -114,7 +129,7 @@ button.add-task-button {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
+        color: rgb(17 149 179);
         font-size: 300%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
@@ -126,7 +141,7 @@ button.add-task-button {
         width: 49%;
         margin: auto;
         height: 295px;
-        position: relative;
+        position: fixed;
     }
     .card-header h4 {
         text-align: left;
@@ -154,7 +169,7 @@ button.add-task-button {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
+        color: rgb(17 149 179);
         font-size: 300%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
@@ -166,14 +181,16 @@ button.add-task-button {
         width: 68%;
         margin: auto;
         height: 327px;
-        position: relative;
+        position: fixed;
+        right: 13%;
+        top: 12%;
     }
 }
 @media only screen and (max-width: 600px) {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
+        color: rgb(17 149 179);
         font-size: 300%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
@@ -185,15 +202,15 @@ button.add-task-button {
         width: 80%;
         margin: auto;
         height: 295px;
-        position: relative;
+        position: fixed;
     }
 }
 @media only screen and (max-width: 500px) {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
-        font-size: 300%;
+        color: rgb(17 149 179);
+        font-size: 240%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
     }
@@ -204,14 +221,15 @@ button.add-task-button {
         width: 97%;
         margin: auto;
         height: 295px;
-        position: relative;
+        position: fixed;
+        right: 1%;
     }
 }
 @media only screen and (max-width: 400px) {
     .head{
         margin: auto;
         text-align: center;
-        color: rgba(0, 170, 255, 0.985);
+        color: rgb(17 149 179);
         font-size: 216%;
         font-family: 'Roboto', sans-serif;
         margin: 2%;
@@ -223,7 +241,8 @@ button.add-task-button {
         width: 92%;
         margin: auto;
         height: 255px;
-        position: relative;
+        position: fixed;
+        right: 3%;
     }
     .card-header h4 {
         text-align: left;
@@ -273,4 +292,7 @@ button.add-task-button {
         color: white;
         font-size: 95%;
     }
+}
+.{
+    text-decoration: line-through;
 }

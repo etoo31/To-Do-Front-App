@@ -1,0 +1,33 @@
+.all-tasks-card{
+    background-color: #555;
+    width: 70%;
+    margin: 5% auto;
+}
+.no-tasks-yet{
+    background-color: #dc9696;
+    width: 91%;
+    margin: 1% auto 13%;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    color: #4d0e09;
+}
+.task{
+    text-align: center;
+    background-color: #cfe9f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+.task-delete{
+    background-color: #e94645;
+    color: rgb(255 220 213);
+    padding: 1%;
+    margin: 1%;
+}
+.task-name{
+    color: #194953;
+    font-weight: bold;
+    margin: 1%;
+}
