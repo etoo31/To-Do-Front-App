@@ -45,8 +45,6 @@ document.body.addEventListener('click' , (e)=>{
             {
                 noDatDiv.remove();
             }
-            //remove the last div
-            document.querySelector('#margin').remove();
             //Add the element
             let taskDiv = document.createElement('div');
             taskDiv.classList.add("task");
@@ -63,11 +61,6 @@ document.body.addEventListener('click' , (e)=>{
             taskDiv.appendChild(delBtn);
             allTasksCards.appendChild(taskDiv);
             
-            //Add Margin div
-            let marginDiv = document.createElement("div")
-            marginDiv.id ="margin";
-            marginDiv.style.height ="1px";
-            allTasksCards.appendChild(marginDiv);
             //close add task
             close();
         }
@@ -78,25 +71,16 @@ document.body.addEventListener('click' , (e)=>{
         let taskDiv = document.querySelector(".task");
         if (taskDiv == undefined)
         {
-            //remove the last div
-            document.querySelector('#margin').remove();
-
             // Add no data div
             let noDataDiv = document.createElement("div");
             noDataDiv.classList.add("no-tasks-yet")
             noDataDiv.innerText = "No Data Added Yet";
             allTasksCards.appendChild(noDataDiv);
-
-            //Add Margin div
-            let marginDiv = document.createElement("div")
-            marginDiv.id ="margin";
-            marginDiv.style.height ="1px";
-            allTasksCards.appendChild(marginDiv);
         }
     }
     //Line Throgh the div to be Done
 
-    
+
     /*else if (e.target.classList.contains("task"))
     {
         if (e.target.style.text-decoration == "line-through")
